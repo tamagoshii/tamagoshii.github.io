@@ -1,10 +1,10 @@
 body{
-    width: 1200px;
+    width: 100%;
     margin: opx auto;
     background-color:#000000;
 }
 #teste{
-    width: 1200px;
+    width: 70%;
     margin: opx auto;
     background-color:#df3e3e;
 }
