@@ -1,8 +1,13 @@
+body{
+    width: 1200px;
+    margin: opx auto;
+    background-color:#000000;
+}
 #teste{
     width: 1200px;
     margin: opx auto;
     background-color:#df3e3e;
 }
-h1,h4,p{
+h1,h4,p,ul,li,{
     text-align: center;
 }
