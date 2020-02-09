@@ -1,8 +1,8 @@
 #teste{
-    width: 800px;
+    width: 1200px;
     margin: opx auto;
     background-color:#df3e3e;
 }
-h1,p{
+h1,h4,p{
     text-align: center;
 }
