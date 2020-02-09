@@ -8,6 +8,9 @@ body{
     margin: opx auto;
     background-color:#df3e3e;
 }
-h1,h4,p,ul,li{
+h1,p{
+    text-align: center;
+}
+h4,p{
     text-align: center;
 }
