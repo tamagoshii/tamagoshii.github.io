@@ -11,6 +11,6 @@ body{
 h1,p{
     text-align: center;
 }
-h4,p{
+h4,p,ul,li{
     text-align: center;
 }
