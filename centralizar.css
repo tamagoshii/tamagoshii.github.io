@@ -1,7 +1,7 @@
 body{
     width: 100%;
     margin: opx auto;
-    background-color:#000000;
+    background-color:#8c7f73;
     overflow-y: hidden; /* Esconde a barra lateral scroll */
     overflow-x: hidden; /* Esconde a barra vertical scroll*/
     font-size: 16px; /*tamanho da fonte padrão do codigo*/
