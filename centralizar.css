@@ -14,6 +14,15 @@ html{     /* html é o elemento pai da pagina */
     margin: opx auto;
     background-color:#df3e3e;
 }
+#nav{
+    text-align: center;
+    float: inline-end;
+    color: white;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
 h1,p{
     text-align: center;
 }
@@ -27,4 +36,5 @@ h4,p{
 }
 #lista{
     text-align: center;
+    list-style-type: none;
 }
