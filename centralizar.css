@@ -3,6 +3,10 @@ body{
     margin: opx auto;
     background-color:#000000;
 }
+html{     /* html é o elemento pai da pagina */
+    font-size: 10px; /*tamanho da fonte padrão do codigo*/
+    font-family: "Open Sans", sans-serif; /*Nome da fonte do google fontes*/
+}
 #teste{
     width: 70%;
     margin: opx auto;
