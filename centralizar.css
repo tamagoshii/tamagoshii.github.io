@@ -10,8 +10,11 @@ html{     /* html é o elemento pai da pagina */
     font-family: "Open Sans", sans-serif; /*Nome da fonte do google fontes*/
 }
 #teste{
-    width: 50%;
-    margin: 50px;
+    width: 600px;
+    height: 400px;
+    margin-left: -300px;
+    margin-top: -200px;
+    position: absolute;
     background-color:#df3e3e;
 }
 h1,p{
