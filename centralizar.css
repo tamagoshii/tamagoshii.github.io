@@ -8,6 +8,9 @@ body{
     margin: opx auto;
     background-color:#df3e3e;
 }
+img{
+    text-align: center;
+}
 h1,p{
     text-align: center;
 }
