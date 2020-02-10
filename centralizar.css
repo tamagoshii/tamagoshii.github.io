@@ -4,7 +4,7 @@ body{
     background-color:#000000;
 }
 html{     /* html é o elemento pai da pagina */
-    font-size: 10px; /*tamanho da fonte padrão do codigo*/
+    font-size: 16px; /*tamanho da fonte padrão do codigo*/
     font-family: "Open Sans", sans-serif; /*Nome da fonte do google fontes*/
 }
 #teste{
@@ -19,7 +19,6 @@ img{
     text-align: center;
     display: block;
     margin: 0px auto;
-    width: 200px;
 }
 h4,p{
     text-align: center;
