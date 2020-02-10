@@ -2,16 +2,16 @@ body{
     width: 100%;
     margin: opx auto;
     background-color:#000000;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-y: hidden; /* Esconde a barra lateral scroll */
+    overflow-x: hidden; /* Esconde a barra vertical scroll*/
 }
 html{     /* html é o elemento pai da pagina */
     font-size: 18px; /*tamanho da fonte padrão do codigo*/
     font-family: "Open Sans", sans-serif; /*Nome da fonte do google fontes*/
 }
 #teste{
-    width: 70%;
-    margin: opx auto;
+    width: 50%;
+    margin: 50px;
     background-color:#df3e3e;
 }
 h1,p{
