@@ -7,26 +7,42 @@
         <link href="centralizar.css" rel="stylesheet" type="text/css" />
         <!--Linkando a fonte do google fontes-->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <script>
+        function mostrar(id){
+            document.getElementById(id).style.display = 'block';
+        }
+        </script>
     </head>
     <!--Para adicionar fundo em HTML bgcolor="color" dentro do <body>-->
     <body>
-        <div id="teste">
             <img src="./imagens/fotoperfil.jpeg" alt="Foto de perfil" width="200px">
-            <h1>Estela <strike>Aparecida</strike> Martins </h1>
-            <div id="nav">
+            <h1 class="central">Estela <strike>Aparecida</strike> Martins </h1>
+            <div id="menu">
                 <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#exp">Experiencia</a></li>
+                    <li><a type="button" onclick="mostrar('t1')">Sobre</a></li>
+                    <li><a type="button" onclick="mostrar('t2')">Skills</a></li>
+                    <li><a type="button" onclick="mostrar('t3')">Hobby</a></li>
+                    <li><a type="button" onclick="mostrar('t4')">Contato</a></li>
+                </ul>
+            </div>
+            <!--
+             <div id="menu">
+                <ul>
+                    <li><button type="button" onclick="mostrar()">Sobre</button></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#trabalho">Trabalho</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
-            <a name="sobre">
-            <p><strong> Brasil |&nbsp;Palhoça - SC </strong><br>Idade - 25 anos </p>
-            <p> Apaixonada por Tecnologia, Estudante na <strong>Trybe</strong>.<br> Pratica Softbol todos os sabados <strong>Ichiban | Florianopolis - SC</strong></p>
-            </a>
-            <a name="exp">
-            <h4>XP: <strong> Dataunity | Consultoria e Gestão de dados </strong>- 6 anos</h4>      
+            -->
+            <div id="t1" class="hidden" name="sobre">
+            <p class="central"><strong> Brasil |&nbsp;Palhoça - SC </strong><br>Idade - 25 anos</p>
+            <p class="central"> Apaixonada por Tecnologia, Estudante na <strong>Trybe</strong>.</p>
+            </div>
+            <div id="t2" class="hidden" name="skills">
+                <h4 class="central"><strong> Dataunity | Consultoria e Gestão de dados </strong>- 6 anos</h4>      
                 <ul id="lista">
                     <li>Suporte Remoto</li>
                     <li><em>Active directory</em></li>
@@ -34,11 +50,25 @@
                     <li><em>Windows server</em></li>
                     <li>Etc..</li>
                 </ul>
-            </a>
-            <a name="contato">
-            <h4>Blog:<a href="https://cafezinhotech.blogspot.com/" ><em>Cafézinho Tech</em></a></h4>
-            <br>
-            </a>
-        </div>   
+            </div>
+            <div id="t3" class="hidden" name="Hobby">
+                <p class="central"> Pratica Softbol todos os sabados <strong>Ichiban | Florianopolis - SC</strong></p>
+            </div>
+            <div id="t4" class="hidden" name="contato">
+                <h4 class="central">Blog:<a href="https://cafezinhotech.blogspot.com/" ><em>Cafézinho Tech</em></a></h4>
+            </div>
+            <!--
+            <p class="central"><strong> Brasil |&nbsp;Palhoça - SC </strong><br>Idade - 25 anos</p>
+            <p class="central"> Apaixonada por Tecnologia, Estudante na <strong>Trybe</strong>.<br> Pratica Softbol todos os sabados <strong>Ichiban | Florianopolis - SC</strong></p>
+            <h4 class="central">XP: <strong> Dataunity | Consultoria e Gestão de dados </strong>- 6 anos</h4>      
+                <ul id="lista">
+                    <li>Suporte Remoto</li>
+                    <li><em>Active directory</em></li>
+                    <li>Gerenciamento de Dados</li>
+                    <li><em>Windows server</em></li>
+                    <li>Etc..</li>
+                </ul>
+            <h4 class="central">Blog:<a href="https://cafezinhotech.blogspot.com/" ><em>Cafézinho Tech</em></a></h4>
+            <br>  -->
     </body>
 </html>
