@@ -1,9 +1,9 @@
 body{
     width: 100%;
-    margin: opx auto;
+    margin: 0px auto;
     background-color:#8c7f73;
-    overflow-y: hidden; /* Esconde a barra lateral scroll */
-    overflow-x: hidden; /* Esconde a barra vertical scroll*/
+    /*overflow-y: hidden; /* Esconde a barra lateral scroll */
+    /*overflow-x: hidden; /* Esconde a barra vertical scroll*/
     font-size: 16px; /*tamanho da fonte padrão do codigo*/
     font-family: "Open Sans", sans-serif; /*Nome da fonte do google fontes*/
     color: white;
@@ -11,12 +11,20 @@ body{
 .central{
     text-align: center;
 }
+.box{
+        width:100%;
+        height:290px;
+        padding: 10px;
+        background-image: url();
+        background:#3ab87a;			
+        box-sizing: border-box;
+}
 #menu{
     width: 40%;
-    margin-left: 400px;
+    margin-left: 30%;
 }
 #menu ul{
-    margin: 10px;
+    margin: 0;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     list-style: none;
@@ -37,12 +45,14 @@ body{
     display: none;
 }
 img{
+    width: 200px;
     text-align: center;
     display: block;
     margin: 0px auto;
     border-radius: 100%;
 }
 #lista{
-    text-align: center;
-    list-style-type: none; /*Retira o indide*/
+    margin-left: 35%;
+    text-align: left;
+    list-style-type: square; /*Retira o indice*/
 }
