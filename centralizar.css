@@ -14,9 +14,9 @@ body{
 .box{
         width:100%;
         height:290px;
-        padding: 10px;
-        background-image: url();
-        background:#3ab87a;			
+        padding: 15px;
+        background-image: url("./imagens/10.jpg");
+        /*background:#3ab87a;*/			
         box-sizing: border-box;
 }
 #menu{
